@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  /* height: 50px; */
+}
+
+.header_logo {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+}
+.lchart {
+  flex: 0.5;
+}
+.table {
+  width: 1200px;
+  height: 500px;
+  overflow: auto;
+}
+.bchart {
+  flex: 0.5;
+}
+
+.bchart1 {
+  flex: 0.5;
+}
+.bchart2 {
+  flex: 0.5;
+  /* half screen width becasue 1 is full screen width */
+}
+
+.main_filter_div {
+  display: flex;
+  flex-direction: column;
+}
+.main_filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_charts_div {
+  display: flex;
+  flex-direction: column;
+}
+.main_chart_div_subdiv {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.bchart_popup {
+  display: flex;
+}
+
+.bchart1_popup {
+  display: flex;
+}
+
+.bchart2_popup {
+  display: flex;
+}
+.modal .content {
+  height: 1200px;
+  width: 1200px;
+  background-color: rgb(235, 224, 128);
+}
+.lchart_popup {
+  height: 100%;
+  width: 100%;
+}
+
+.main_chart_div_subdiv_div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+}
+
+.popup_button {
+  width: 120px;
+  margin-left: 78%;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+}
