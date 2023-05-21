@@ -2,7 +2,7 @@
 const express = require('express');
 ///mongoose--to connect mogodb easily
 const mongoose = require('mongoose');
-///cors--to handle cross origin req
+///cors--to handle cross origin req -------
 const cors = require('cors');
 
 //uses & configs
